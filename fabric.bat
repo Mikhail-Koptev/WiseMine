@@ -1,10 +1,10 @@
 @echo off
 title WiseMine Launcher
 cd %AppData%\.wisemine
-set dir=%AppData%\.wisemine
-set nat=%AppData%\.wisemine\natives
-set ast=%AppData%\.wisemine\assets
-set lib=%AppData%\.wisemine\libraries
+set dir=.
+set nat=.\natives
+set ast=.\assets
+set lib=.\libraries
 set java=%1
 echo %java%
 set memory=%2
