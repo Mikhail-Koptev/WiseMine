@@ -1,6 +1,6 @@
 @echo off
 title WiseMine Launcher
-cd %AppData%\.wisemine
+cd /d %AppData%\.wisemine
 set dir=.
 set nat=.\natives
 set ast=.\assets
